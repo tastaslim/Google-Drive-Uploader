@@ -1,0 +1,15 @@
+# Secrets — never commit real credentials
+.env
+service_account.json
+*.pem
+*.key
+*.pfx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
